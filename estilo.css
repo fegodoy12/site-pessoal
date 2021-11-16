@@ -1,0 +1,156 @@
+/* CSS Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #00031b;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(192, 253, 253, 0.842);
+}
+
+#tudo {
+    width: 1000px;
+    margin: auto;
+    border: 1px solid rgba(1, 6, 39, 0.555);
+}
+
+#menu {
+    width: 1000px;
+    background-color: rgba(1, 10, 61, 0.582);
+    height: 40px;
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu ul li {
+    float: left;
+}
+
+#menu ul li a {
+    font-size: 16px;
+    width: 250px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: rgba(192, 253, 253, 0.842);
+    padding-top: 10px;
+}
+
+#menu ul li a:hover {
+    font-size: 17px;
+    background-color: rgba(192, 253, 253, 0.842);
+    color: rgba(1, 10, 61, 0.582);
+    height: 30px;
+}
+
+#conteudo {
+    float: right;
+    width: 740px;
+    height: 650px;
+    border: 1px solid rgba(1, 6, 39, 0.555);
+    padding: 0px 5px;
+}
+
+#conteudo p {
+    color:rgba(192, 253, 253, 0.842);
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+#conteudo img {
+    width: 243px;
+    height: 300px;
+}
+
+#coluna {
+    float: left;
+    background-color: rgba(1, 10, 61, 0.582);
+    width: 237px;
+    padding: 2px 5px;
+    height: 648px;
+}
+
+#coluna p {
+    font-size: 15px;
+}
+
+#coluna img {
+    width: 240px;
+    height: 300px;
+}
+
+#rodape a {
+    text-decoration: none;
+    width: 200px;
+}
+
+.logo {
+    width: 100px;
+    padding-left: 10px;
+    float: left;
+}
+
+#myphoto {
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+#myphoto img {
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    padding-right: 1px;
+}
+
+#contgaleria img {
+    border: 2px solid rgba(1, 6, 39, 0.555);
+    width: 246px;
+    height: 300px;
+    float: left;
+}
+
+.coliseu {
+    width: 496px;
+    height: 350px;
+    float: right;
+    border: 2px solid rgba(1, 6, 39, 0.555);
+}
+
+.insta {
+    color: rgba(232, 163, 253, 0.699);
+    font-style: italic;
+    font-size: larger;
+}
+
+.center {
+    text-align: center;
+    font-size: larger;
+    color: rgba(192, 253, 253, 0.842);
+}
+
+.tt {
+    color: rgba(3, 119, 228, 0.699);
+    font-style: italic;
+    font-size: larger;
+}
+
+.amigos {
+    width: 329px;
+    height: 350px;
+    border: 2px solid rgba(1, 6, 39, 0.555);
+    float: right;
+}
+
+.ultima {
+    width: 997px;
+    height: 375px;
+    border: 2px solid rgba(1, 6, 39, 0.555);
+}
